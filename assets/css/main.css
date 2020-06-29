@@ -25,6 +25,16 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+
+li.just {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-align: justify;
+  	text-justify: inter-word;
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -100,10 +110,10 @@ input, select, textarea {
 
 	body {
 		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #2b6b58 15%, #1d5343 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #2b6b58 15%, #4b7a6c 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #2b6b58 15%, #4b7a6c 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #2b6b58 15%, #4b7a6c 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,7 +130,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #1d5343;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -273,12 +283,12 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-		pre code {
-			display: block;
-			line-height: 1.75;
-			padding: 1em 1.5em;
-			overflow-x: auto;
-		}
+	pre code {
+		display: block;
+		line-height: 1.75;
+		padding: 1em 1.5em;
+		overflow-x: auto;
+	}
 
 	hr {
 		border: 0;
@@ -2211,8 +2221,8 @@ input, select, textarea {
 
 /* About Images */
 .about-image{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     -webkit-border-radius: 50%;
     -webkit-background-clip: padding-box;
     -moz-border-radius: 50%;
@@ -2308,7 +2318,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.icon.major:before {
-				font-size: 5.5rem;
+				font-size: 4rem;
 			}
 
 		}
@@ -2316,7 +2326,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.icon.major:before {
-				font-size: 4.75rem;
+				font-size: 4rem;
 			}
 
 		}
@@ -2632,7 +2642,7 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin-bottom: 3em;
+		margin-bottom: 0em;
 	}
 
 		header.major h2 {
@@ -3067,7 +3077,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 5em 5em 1em 5em ;
+		padding: 0em 0em 0em 0em ;
 		text-align: center;
 	}
 
@@ -3081,7 +3091,7 @@ input, select, textarea {
 		}
 
 		#header.alt {
-			padding: 7em 5em 4em 5em ;
+			padding: 3em 0em 0em 0em ;
 		}
 
 			#header.alt h1 {
@@ -3110,7 +3120,7 @@ input, select, textarea {
 				-ms-transition-delay: 0s;
 				transition-delay: 0s;
 				display: block;
-				margin: 0 0 1.5em 0;
+				margin: 0 0 0em 0;
 			}
 
 				#header.alt .logo img {
@@ -3540,11 +3550,11 @@ input, select, textarea {
 		}
 
 		#main header.major h2:after {
-			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-color: #000000;
+			background-image: -moz-linear-gradient(90deg, #548375 15%, #1d5343 85%);
+			background-image: -webkit-linear-gradient(90deg, #548375 15%, #1d5343 85%);
+			background-image: -ms-linear-gradient(90deg, #548375 15%, #1d5343 85%);
+			background-image: linear-gradient(90deg, #548375 15%, #1d5343 85%);
 		}
 
 		#main table tbody tr {
